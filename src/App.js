@@ -4,6 +4,7 @@ import Navbar from './komponente/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Pocetna from './komponente/Pocetna';
 import Kontakt from './komponente/Kontakt';
+import Footer from './komponente/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 <Route path="/kontakt"element={<Kontakt></Kontakt>}></Route>
 
    </Routes>
+   <Footer></Footer>
   </BrowserRouter>
     </div>
   );
