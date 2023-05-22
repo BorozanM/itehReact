@@ -1,10 +1,12 @@
+import Kartica from "./Kartica";
 
 function Pocetna() {
   return (
     <div >
         
-<h1>Ovo je pocetna</h1>
-
+<Kartica>
+    
+</Kartica>
     </div>
   );
 }
