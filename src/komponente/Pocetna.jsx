@@ -1,12 +1,11 @@
 import Kartica from "./Kartica";
 
-function Pocetna() {
+function Pocetna({laptopovi}) {
   return (
-    <div >
+    <div className="all-products">
         
-<Kartica>
+        {laptopovi.map((l)=><Kartica laptop={l} ></Kartica>)}
     
-</Kartica>
     </div>
   );
 }
